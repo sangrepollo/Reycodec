@@ -23,7 +23,9 @@ definición asíncrona principal ():
                       esperar cliente.get_entity('@Isla_Ventas'),
 
                       aguardar cliente.get_entity('@ventasisladepinos'),
-
+                      
+                      esperar cliente.get_entity('@lacompraventaaledjtusivendes'),
+                      
                       esperar cliente.get_entity('@geronabusiness'),
 
                       esperar cliente.get_entity('@mercadominoristameij'),
