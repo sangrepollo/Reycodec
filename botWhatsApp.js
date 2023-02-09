@@ -101,7 +101,7 @@ const chatIds = [
     setInterval(async () => {
         // Creamos un bucle para enviar mensajes a cada grupo en el intervalo de 1 minuto
         for (const chatId of chatIds) {
-const message = { text: '🇺🇸🇨🇺 OFERTA DE REMESAS Y COMBOS DE COMIDAS 🇺🇸🇨🇺\n\n➡️ 100 USD 🇺🇲 - 14 500 CUP 🇨🇺\n➡️ 112 USD 🇺🇸 - 100 USD/MLC 🇨🇺\n\n‼️ PARA SABER LAS OFERTAS DE LOS COMBOS DE COMIDA PASE AL PV ‼️\n\nCOMPRO DIVISAS\nMLC A 150\nUSD A 150\nEUROS A 155\n\nLink de grupo de WhatsApp: https://chat.whatsapp.com/L1frnLZTSykG2JTqZnnVk9\n\nTRATO PRECENCIAL en toda la Isla de la juventud' };
+const message = { text: '🇺🇸🇨🇺 OFERTAS ' };
             const options = {};
             await sock.sendMessage(chatId, message, options);
             console.log(`Mensaje enviado a ${chatId}`);
