@@ -111,7 +111,7 @@ text: '🇺🇸🇨🇺 OFERTAS\n\n❌❌❌❌❌❌❌❌❌\nSe vende Número
             // Esperamos 1 minuto antes de enviar el siguiente mensaje
             await new Promise(resolve => setTimeout(resolve, 60000));
         }
-    }, 480000);
+    }, 10800000);
 }
 
 run();
