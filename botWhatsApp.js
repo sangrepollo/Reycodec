@@ -101,7 +101,9 @@ const chatIds = [
     setInterval(async () => {
         // Creamos un bucle para enviar mensajes a cada grupo en el intervalo de 1 minuto
         for (const chatId of chatIds) {
-const message = { text: '🇺🇸🇨🇺 OFERTAS ' };
+const message = {
+text: '🇺🇸🇨🇺 OFERTAS\n\n❌❌❌❌❌❌❌❌❌\nSe vende Números ☎️ virtuales este número sirve para Tener un WhatsApp con el número +1 de 🇺🇲 Estados Unidos obtenga WhatsApp Si ustede quiere Ser vendedor anónimo esrcibame lo espero en mi privado no sé arrepentirá y cuida su trabajo y la identidad 😃👌👌'
+};
             const options = {};
             await sock.sendMessage(chatId, message, options);
             console.log(`Mensaje enviado a ${chatId}`);
